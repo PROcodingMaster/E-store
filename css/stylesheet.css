@@ -1,0 +1,10 @@
+.navbar-nav { 
+    float: right;
+     
+}
+.nav-item{
+    margin-right: 40px;
+}
+.glyphicon{
+    margin: 5px;
+}
