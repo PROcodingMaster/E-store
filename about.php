@@ -96,8 +96,7 @@
             <h4 class="about_col">Sorry! , No Roles are availble right now.</h4>
       </div>
   </div>
-
-
+  
   <?php 
     include 'includes/footer.php';
   ?>
