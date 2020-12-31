@@ -37,3 +37,17 @@
     display: block;
     color: white;
 }
+.about_col{
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.row h3{
+    color: rgba(0, 0, 0, 0.582);
+    padding-left:25px ;
+}
+.about_img{
+    padding-left: 25px;
+}
