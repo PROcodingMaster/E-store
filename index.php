@@ -3,28 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-       
-            <!---------------------------------- SOME CUSTOM LINKS --------------------------->
-        
-            <!-- Bootstrap link -->
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <!-- Bootstrap Core CSS -->
-            <link href="css/bootstrap.css" rel="stylesheet">
-           
-          <!---------------------------------- SOME CUSTOM LINKS --------------------------->
-       
-     <!-- Custom CSS -->
-     <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
-    <title>E-store</title>
     
-    <!-- SOME IMPORTANT SYLES -->
-    <style>
-      
-    </style>
+  <?php 
+    include 'includes/links.php';
+  ?>
+    <title>E-store</title>
 </head>
 <body>
   <?php 
@@ -129,24 +112,10 @@
       </div>
     </div>
     <!----------------------------------------------- ROW 2 end ----------------------------------------------->
-  </div>  
-  <div class="footer">
-      <div class="row">
-        <div class="col-md-4 footer_col">
-          <h4><b>Information</b></h4>
-          <a href="about.php">About Us</a>
-          <a href="contact.php">Conatct Us</a>
-        </div>
-        <div class="col-md-4 footer_col">
-          <h4><b>My Account</b></h4>
-          <a href="#">Login</a>
-          <a href="signup.php">Signup</a>
-        </div>
-        <div class="col-md-4 footer_col">
-          <h4><b>Contact Us</b></h4>
-          <p>Conatct +91-123-00000</p>
-        </div>
-      </div>
+
+    <?php 
+    include 'includes/footer.php';
+  ?>
     
 </body>
 </html>
