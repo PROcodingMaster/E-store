@@ -1,3 +1,4 @@
+/* --------------------- NAVBAR_CSS --------------------- */ 
 .navbar-nav { 
     float: right; 
 }
@@ -7,6 +8,7 @@
 .glyphicon{
     margin: 5px;
 }
+/* --------------------- INDEX_PAGE_CSS --------------------- */ 
 .container-fluid{
     width: 100%;
 }
@@ -21,6 +23,7 @@
     color:white;
     font-size: 15px;
   }
+  /* --------------------- FOOTER_CSS --------------------- */ 
 .footer{
       overflow: hidden;
       width: 100%;
@@ -37,6 +40,7 @@
     display: block;
     color: white;
 }
+/* --------------------- ABOUT_PAGE_CSS --------------------- */ 
 .about_col{
     color: rgba(0, 0, 0, 0.733);
     margin-left: 20px;
@@ -44,10 +48,43 @@
     text-align: justify;
     text-justify: inter-word;
 }
-.row h3{
+.about_col_headings{
     color: rgba(0, 0, 0, 0.582);
     padding-left:25px ;
 }
 .about_img{
     padding-left: 25px;
+}
+
+/* --------------------- CONTACT_PAGE_CSS --------------------- */ 
+.conatct_fields label{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+.conatct_fields{
+    margin-bottom: 20px;
+}
+.contact-fields input{
+    padding-right: 30px;
+}
+.contact_sibmit_button{
+    border: none;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: block;
+    padding: 4px 30px;
+    border-radius: 5px;
+    background-color: rgb(71, 165, 241);
+    color:white;
+}
+.company_info{
+    width: 100%;
+}
+.company_info h1{
+    width: 110%;
+    margin-bottom: 20px;
+}
+.company_info p{
+    color: rgba(0, 0, 0, 0.685);
 }

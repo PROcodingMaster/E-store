@@ -14,7 +14,7 @@
   ?>
   <div class="row">
       <div class="col-md-4">
-          <h3>WHO ARE WE</h3>
+          <h3 class="about_col_headings">WHO ARE WE</h3>
             <img src="img/about-img.jpg" class="container-fluid about_img">
             <p class="about_col">Lorem Ipsum is simply dummy text of the printing and typesetting 
                 industry. Lorem Ipsum has been the industry's standard dummy text 
@@ -36,7 +36,7 @@
 </p>
       </div>
       <div class="col-md-4 ">
-            <h3>OUR HISTORY</h3>
+            <h3 class="about_col_headings">OUR HISTORY</h3>
             <p class="about_col">Contrary to popular belief, Lorem
                 Ipsum is not simply random text. It
                 has roots in a piece of classical Latin
@@ -92,7 +92,7 @@
 
       </div>
       <div class="col-md-4">
-          <h3>OPPORTUNITIES</h3>
+          <h3 class="about_col_headings">OPPORTUNITIES</h3>
             <h4 class="about_col">Sorry! , No Roles are availble right now.</h4>
       </div>
   </div>
